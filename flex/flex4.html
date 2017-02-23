@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>justify-cotent</title>
+	<style>
+		html,body{
+			margin:0;
+			height:100%;
+		}
+		article{
+			width:500px;
+			height:300px;
+			background-color:rgba(100,0,0,.6);
+			display:flex;
+			flex-direction:row;
+			flex-wrap:wrap;
+
+		}
+		section:nth-child(1){
+			background-color:red;
+		}
+		section:nth-child(2){
+			background-color:pink;
+		}
+		section:nth-child(3){
+			background-color:green;
+		}
+		p{
+			font-size:20px;
+			color:red;
+		}
+	</style>
+</head>
+<body>
+<h3>当弹性盒里一行上的所有子元素都不能伸缩或已经达到其最大值时，这一属性可协助对多余的空间进行分配。当元素溢出某行时，这一属性同样会在对齐上进行控制。</h3>
+
+	<article>
+		<section>第一个</section>
+		<section><br /><br />第二个</section>
+		<section>第三个</section>
+	</article>
+	<p>justify-content为：<i></i></p>
+</body>
+<script>
+	let [text,art,arr,i]=[document.querySelector('i'),document.querySelector('article'),['flex-start','flex-end','center','space-between','space-around'],0]
+	setInterval(()=>{
+		text.innerHTML=arr[i]
+		art.style.justifyContent=arr[i];
+		i=i==4?0:i+1;
+	},1000)
+</script>
+</html>

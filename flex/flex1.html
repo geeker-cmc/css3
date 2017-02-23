@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>flex</title>
+	<style>
+	/*
+		容器可以用到的属性
+		flex-direction  决定主轴的方向的row|row-reverse|column|column-reverse
+		flex-wrap  决定子项是否换行nowrap|wrap|wrap-reverse
+		flex-flow  <'flex-direction'>||<'flex-wrap'>
+	 */
+		html,body{
+			margin:0;
+			height:100%;
+		}
+		.wrap{
+			width:800px;
+			height:300px;
+			background:rgba(200,200,0,.7);
+			display:flex;
+			margin:10px;
+		}
+		.wrap:nth-child(1){
+			flex-wrap:nowrap;
+		}
+		.wrap:nth-child(2){
+			flex-wrap:wrap;
+		}
+		.wrap:nth-child(3){
+			flex-wrap:wrap-reverse;
+		}
+		section{
+			flex: 1 1 300px;
+			margin:10px;
+		}
+		.item1{
+			background:red;
+		}
+		.item2:nth-child(2){
+			background:green;
+		}
+		.item3{
+			background:pink;
+		}
+	</style>
+</head>
+<body>
+	<article class="wrap">
+		<section class="item1">第一个</section>
+		<section class="item2">第二个</section>
+		<section class="item3">第三个</section>
+	</article>
+	<article class="wrap">
+		<section class="item1">第一个</section>
+		<section class="item2">第二个</section>
+		<section class="item3">第三个</section>
+	</article>
+	<article class="wrap">
+		<section class="item1">第一个</section>
+		<section class="item2">第二个</section>
+		<section class="item3">第三个</section>
+	</article>
+</body>
+</html>

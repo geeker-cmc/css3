@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>align-item</title>
+	<style>
+		html,body{
+			margin:0;
+			height:100%;
+		}
+		article{
+			width:500px;
+			height:300px;
+			background-color:rgba(100,0,0,.6);
+			display:flex;
+			flex-direction:row;
+			flex-wrap:wrap;
+
+		}
+		article>section{
+			flex:1 1 150px;
+		}
+		section:nth-child(1){
+			background-color:red;
+		}
+		section:nth-child(2){
+			background-color:pink;
+		}
+		section:nth-child(3){
+			background-color:green;
+		}
+		section:nth-child(4){
+			background-color:rgba(0,200,0,.7);
+		}
+		section:nth-child(5){
+			background-color:rgba(0,200,100,.7);
+		}
+		p{
+			font-size:20px;
+			color:red;
+		}
+	</style>
+</head>
+<body>
+<h3>说明：定义flex子项在flex容器的当前航的侧轴方向上的对其方式</h3>
+<ol>
+	<li>stretch：如果指定侧轴大小的属性值为'auto',则其值会使项目的边距盒的尺寸尽可能接近所在行的尺寸。</li>
+	<li>flex-start：弹性盒子元素的侧轴起始位置的边界紧靠住该行的侧轴起始边界。</li>
+	<li>flex-end：弹性盒子元素的侧轴起始位置的边界紧靠住该行的侧轴结束边界。</li>
+	<li>center：弹性盒子元素在该行的侧轴上居中的位置。</li>
+	<li>baseline:如果弹性盒子元素的行内轴与侧轴为同一条，则该值与'flex-start'等效。其他情况下，该值将参与基线对齐。</li>
+</ol>
+	<article>
+		<section>第一个</section>
+		<section><br /><br />第二个</section>
+		<section>第三个</section>
+		<section>第四个</section>
+		<section>第五个</section>
+	</article>
+	<p>align-content为：<i></i></p>
+</body>
+<script>
+	let [text,art,arr,i]=[document.querySelector('i'),document.querySelector('article'),['stretch','flex-start','flex-end','center','baseline'],0]
+	setInterval(()=>{
+		text.innerHTML=arr[i]
+		art.style.alignItems=arr[i];
+		i=i==4?0:i+1;
+	},3000)
+</script>
+</html>
