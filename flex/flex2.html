@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>align-content</title>
+	<style>
+		html,body{
+			margin:0;
+			height:100%;
+		}
+		.wrap{
+			width:500px;
+			height:200px;
+			background:rgba(50,100,100,.7);
+			display:flex;
+			flex-direction:row;
+			flex-wrap:wrap;
+		}
+		section{
+			flex:1 1 200px;
+		}
+		.item1{
+			background:red;
+		}
+		.item2{
+			background:pink;
+		}
+		.item3{
+			background:green;
+		}
+		.item4{
+			background:blue;
+		}
+		.item5{
+			background:#ccc;
+		}
+		p{
+			font-size: 20px;
+			color:red;
+		}
+	</style>
+</head>
+<body>
+	<h4>
+		说明:该属性为容器属性，当伸缩容器的侧轴还有多余空间时，本属性可以用来调准伸缩行在伸缩容器的对齐方式，这与调准伸缩项目在主轴上的对齐方式"justify-content"属性类型。请注意本属性在只有一行的伸缩容器上是没有效果的。
+	</h4>
+
+	<article class="wrap">
+		<section class="item1">第一个</section>
+		<section class="item2"><br/>第二个</section>
+		<section class="item3">第三个</section>
+		<section class="item4">第四个</section>
+		<section class="item5">第五个</section>
+	</article>
+	<p>align-content为：<i></i></p>
+</body>
+<script>
+let [text,art,arr,i]=[document.querySelector('i'),document.querySelector('article'),['stretch','flex-start','flex-end','center','space-between','space-around'],0]
+	setInterval(()=>{
+		text.innerHTML=arr[i]
+		art.style.alignContent=arr[i];
+		i=i==5?0:i+1;
+	},1000)
+</script>
+</html>
