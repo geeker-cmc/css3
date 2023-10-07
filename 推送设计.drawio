@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-28T06:38:56.500Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Yll_yTdWL1i3JZJYHPj4" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-07T10:34:30.481Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="MIc_5j0glAAvu9PN2az5" version="21.8.2" type="github">
   <diagram name="第 1 页" id="zFCsPYKmAemc5M4zCG7X">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
         <mxCell id="OrJPfvicP2lSqWDqBgk1-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="OrJPfvicP2lSqWDqBgk1-6" vertex="1">
           <mxGeometry x="45" y="420" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NTywO0ZUPV1NuHkTcdNC-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="OrJPfvicP2lSqWDqBgk1-6">
+        <mxCell id="NTywO0ZUPV1NuHkTcdNC-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="OrJPfvicP2lSqWDqBgk1-6" vertex="1">
           <mxGeometry x="46" y="680" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OrJPfvicP2lSqWDqBgk1-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="OrJPfvicP2lSqWDqBgk1-6" vertex="1">
@@ -115,13 +115,13 @@
             <mxPoint x="290" y="675" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NTywO0ZUPV1NuHkTcdNC-7" value="返回提交状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="NTywO0ZUPV1NuHkTcdNC-5" parent="1" target="OrJPfvicP2lSqWDqBgk1-5">
+        <mxCell id="NTywO0ZUPV1NuHkTcdNC-7" value="返回提交状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="NTywO0ZUPV1NuHkTcdNC-5" target="OrJPfvicP2lSqWDqBgk1-5" edge="1">
           <mxGeometry x="-0.1323" y="-5" relative="1" as="geometry">
             <mxPoint x="290" y="825" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NTywO0ZUPV1NuHkTcdNC-10" value="提交deviceId" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="NTywO0ZUPV1NuHkTcdNC-10" value="用户与deviceId绑定" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="130" y="760" as="sourcePoint" />
             <mxPoint x="363.5" y="760" as="targetPoint" />
