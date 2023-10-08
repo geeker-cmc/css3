@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T03:21:57.206Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="TacQC1BNLk5Emo5It1_r" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-08T07:21:40.676Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="EBB6OAQ_RYLCIYt2_GiQ" version="22.0.4" type="github">
   <diagram name="第 1 页" id="6-j45o7W-66angElEHuD">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-1" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-1" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="70" y="80" width="100" height="1210" as="geometry" />
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-4" value="应用启动" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-4" value="应用启动" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-1" vertex="1">
           <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-1" vertex="1">
           <mxGeometry x="45" y="240" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-8" value="同意隐私协议" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="sv7yGNRD_cg-8nogzaBN-7" parent="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-8" value="同意隐私协议" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="sv7yGNRD_cg-8nogzaBN-1" target="sv7yGNRD_cg-8nogzaBN-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="220" as="sourcePoint" />
             <Array as="points">
@@ -21,22 +21,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-24" value="收到消息，点击通知栏做相应操作" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-24" value="收到消息，点击通知栏做相应操作" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-1" vertex="1">
           <mxGeometry x="45" y="920" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-2" value="服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-2" value="服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="314" y="80" width="100" height="1210" as="geometry" />
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-2">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-2" vertex="1">
           <mxGeometry x="46" y="310" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-2">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-2" vertex="1">
           <mxGeometry x="45" y="600" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-2">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-2" vertex="1">
           <mxGeometry x="46" y="790" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-20" value="告警，根据用户查询使用的哪家推送及token" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="sv7yGNRD_cg-8nogzaBN-19" parent="sv7yGNRD_cg-8nogzaBN-2">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-20" value="告警，根据用户查询使用的哪家推送及token" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="sv7yGNRD_cg-8nogzaBN-2" target="sv7yGNRD_cg-8nogzaBN-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="51" y="770" as="sourcePoint" />
             <Array as="points">
@@ -44,71 +44,71 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-2">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-2" vertex="1">
           <mxGeometry x="46" y="1040" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-3" value="各厂商服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-3" value="各厂商服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="600" y="80" width="100" height="1200" as="geometry" />
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-3">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-3" vertex="1">
           <mxGeometry x="45" y="450" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-3">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-3" vertex="1">
           <mxGeometry x="45" y="880" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-10" value="登录" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="sv7yGNRD_cg-8nogzaBN-9" parent="1" source="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-10" value="登录" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="sv7yGNRD_cg-8nogzaBN-1" target="sv7yGNRD_cg-8nogzaBN-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290" y="395" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-11" value="返回登录状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="sv7yGNRD_cg-8nogzaBN-9" parent="1" target="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-11" value="返回登录状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="sv7yGNRD_cg-8nogzaBN-9" target="sv7yGNRD_cg-8nogzaBN-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290" y="465" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-13" value="根据使用的不同推送获取token或则regId" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="sv7yGNRD_cg-8nogzaBN-12" parent="1" source="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-13" value="获取推送token" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="sv7yGNRD_cg-8nogzaBN-1" target="sv7yGNRD_cg-8nogzaBN-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="575" y="535" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-14" value="返回token或则regId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="sv7yGNRD_cg-8nogzaBN-12" parent="1" target="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-14" value="返回token或则regId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="sv7yGNRD_cg-8nogzaBN-12" target="sv7yGNRD_cg-8nogzaBN-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="575" y="605" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-16" value="绑定使用的哪家厂商及token" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="sv7yGNRD_cg-8nogzaBN-15" parent="1" source="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-16" value="绑定使用的推送渠道及token" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="sv7yGNRD_cg-8nogzaBN-1" target="sv7yGNRD_cg-8nogzaBN-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="289" y="685" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-17" value="返回关联是否成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="sv7yGNRD_cg-8nogzaBN-15" parent="1" target="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-17" value="返回关联是否成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="sv7yGNRD_cg-8nogzaBN-15" target="sv7yGNRD_cg-8nogzaBN-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="289" y="755" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-22" value="指定设备推送消息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="sv7yGNRD_cg-8nogzaBN-21" parent="1" source="sv7yGNRD_cg-8nogzaBN-2">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-22" value="指定设备推送消息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="sv7yGNRD_cg-8nogzaBN-2" target="sv7yGNRD_cg-8nogzaBN-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="575" y="960" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-23" value="返回消息状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-23" value="返回消息状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="1000" as="targetPoint" />
             <mxPoint x="641.5" y="1000" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-25" value="推送消息给用户" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-25" value="推送消息给用户" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="1030" as="sourcePoint" />
             <mxPoint x="120" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-30" value="退出登录，解绑token及厂家渠道" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="sv7yGNRD_cg-8nogzaBN-29" parent="1" source="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-30" value="退出登录，解绑token及厂家渠道" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="sv7yGNRD_cg-8nogzaBN-1" target="sv7yGNRD_cg-8nogzaBN-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290" y="1125" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sv7yGNRD_cg-8nogzaBN-31" value="返回解绑状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="sv7yGNRD_cg-8nogzaBN-29" parent="1" target="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="sv7yGNRD_cg-8nogzaBN-31" value="返回解绑状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="sv7yGNRD_cg-8nogzaBN-29" target="sv7yGNRD_cg-8nogzaBN-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290" y="1195" as="targetPoint" />
           </mxGeometry>
