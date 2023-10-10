@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T06:46:39.278Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="I2WRkFfweolNGum0XjCx" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T08:38:18.681Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="4nW1BXsZRGZ7pPIccrui" version="22.0.4" type="github">
   <diagram name="第 1 页" id="6-j45o7W-66angElEHuD">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="sv7yGNRD_cg-8nogzaBN-1" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="70" y="80" width="100" height="1910" as="geometry" />
+          <mxGeometry x="70" y="80" width="100" height="1740" as="geometry" />
         </mxCell>
         <mxCell id="sv7yGNRD_cg-8nogzaBN-4" value="应用启动" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-1" vertex="1">
           <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
@@ -24,16 +24,16 @@
         <mxCell id="sv7yGNRD_cg-8nogzaBN-24" value="收到消息，点击通知栏做相应操作" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-1" vertex="1">
           <mxGeometry x="45" y="1009" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-1" value="退出登录" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="DIlMTladKK_tDg8o12hu-1" value="退出登录" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-1" vertex="1">
           <mxGeometry x="45" y="1110" width="10" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-6" value="切换服务商" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="DIlMTladKK_tDg8o12hu-6" value="切换服务商" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-1" vertex="1">
           <mxGeometry x="45" y="1390" width="10" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="DIlMTladKK_tDg8o12hu-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-1" vertex="1">
           <mxGeometry x="55" y="1560" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-23" value="重启应用" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="DIlMTladKK_tDg8o12hu-22" parent="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="DIlMTladKK_tDg8o12hu-23" value="重启应用" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="sv7yGNRD_cg-8nogzaBN-1" target="DIlMTladKK_tDg8o12hu-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="1540" as="sourcePoint" />
             <Array as="points">
@@ -42,7 +42,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sv7yGNRD_cg-8nogzaBN-2" value="服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="314" y="80" width="100" height="1920" as="geometry" />
+          <mxGeometry x="314" y="80" width="100" height="1740" as="geometry" />
         </mxCell>
         <mxCell id="sv7yGNRD_cg-8nogzaBN-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-2" vertex="1">
           <mxGeometry x="45" y="600" width="10" height="80" as="geometry" />
@@ -99,19 +99,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-2">
+        <mxCell id="DIlMTladKK_tDg8o12hu-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-2" vertex="1">
           <mxGeometry x="45" y="1240" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-2">
+        <mxCell id="DIlMTladKK_tDg8o12hu-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-2" vertex="1">
           <mxGeometry x="45" y="1390" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-2">
+        <mxCell id="DIlMTladKK_tDg8o12hu-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-2" vertex="1">
           <mxGeometry x="45" y="1470" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-2">
+        <mxCell id="DIlMTladKK_tDg8o12hu-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-2" vertex="1">
           <mxGeometry x="56" y="1410" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-14" value="解绑Token和用户绑定" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="DIlMTladKK_tDg8o12hu-13" parent="sv7yGNRD_cg-8nogzaBN-2">
+        <mxCell id="DIlMTladKK_tDg8o12hu-14" value="解绑Token和用户绑定" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="sv7yGNRD_cg-8nogzaBN-2" target="DIlMTladKK_tDg8o12hu-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="61" y="1390" as="sourcePoint" />
             <Array as="points">
@@ -119,11 +119,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sv7yGNRD_cg-8nogzaBN-2">
-          <mxGeometry x="45" y="1700" width="10" height="80" as="geometry" />
+        <mxCell id="DIlMTladKK_tDg8o12hu-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-2" vertex="1">
+          <mxGeometry x="45" y="700" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DIlMTladKK_tDg8o12hu-26" value="开启或关闭推送开关" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="sv7yGNRD_cg-8nogzaBN-2" target="DIlMTladKK_tDg8o12hu-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-194.5" y="705" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIlMTladKK_tDg8o12hu-27" value="返回开启关闭推送状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="sv7yGNRD_cg-8nogzaBN-2" source="DIlMTladKK_tDg8o12hu-25" edge="1">
+          <mxGeometry x="0.0021" relative="1" as="geometry">
+            <mxPoint x="-194.5" y="775" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="sv7yGNRD_cg-8nogzaBN-3" value="各厂商服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="600" y="80" width="100" height="1940" as="geometry" />
+          <mxGeometry x="600" y="80" width="100" height="1750" as="geometry" />
         </mxCell>
         <mxCell id="sv7yGNRD_cg-8nogzaBN-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="sv7yGNRD_cg-8nogzaBN-3" vertex="1">
           <mxGeometry x="45" y="310" width="10" height="80" as="geometry" />
@@ -197,49 +208,38 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-3" value="退出登录" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="DIlMTladKK_tDg8o12hu-2" parent="1" source="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="DIlMTladKK_tDg8o12hu-3" value="退出登录" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="sv7yGNRD_cg-8nogzaBN-1" target="DIlMTladKK_tDg8o12hu-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="289" y="1325" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-4" value="返回退出登录状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="DIlMTladKK_tDg8o12hu-2" parent="1" target="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="DIlMTladKK_tDg8o12hu-4" value="返回退出登录状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="DIlMTladKK_tDg8o12hu-2" target="sv7yGNRD_cg-8nogzaBN-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="289" y="1395" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-10" value="解绑token及厂商渠道" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="sv7yGNRD_cg-8nogzaBN-2">
+        <mxCell id="DIlMTladKK_tDg8o12hu-10" value="解绑token及厂商渠道" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="sv7yGNRD_cg-8nogzaBN-2" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="120" y="1480" as="sourcePoint" />
             <mxPoint x="200" y="1480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-12" value="返回解绑状态" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="DIlMTladKK_tDg8o12hu-12" value="返回解绑状态" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" target="sv7yGNRD_cg-8nogzaBN-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="360" y="1520" as="sourcePoint" />
             <mxPoint x="149.5" y="1520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-18" value="退出登录" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="sv7yGNRD_cg-8nogzaBN-2">
+        <mxCell id="DIlMTladKK_tDg8o12hu-18" value="退出登录" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="sv7yGNRD_cg-8nogzaBN-2" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="120" y="1570" as="sourcePoint" />
             <mxPoint x="200" y="1570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-19" value="返回退出登录状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="sv7yGNRD_cg-8nogzaBN-1">
+        <mxCell id="DIlMTladKK_tDg8o12hu-19" value="返回退出登录状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="sv7yGNRD_cg-8nogzaBN-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="1600" as="sourcePoint" />
             <mxPoint x="280" y="1600" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-26" value="关闭推送开关" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="DIlMTladKK_tDg8o12hu-25" parent="1" source="sv7yGNRD_cg-8nogzaBN-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="289" y="1785" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DIlMTladKK_tDg8o12hu-27" value="返回关闭推送状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="DIlMTladKK_tDg8o12hu-25" parent="1" target="sv7yGNRD_cg-8nogzaBN-1">
-          <mxGeometry x="0.0021" relative="1" as="geometry">
-            <mxPoint x="289" y="1855" as="targetPoint" />
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
